@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C235392-0FB2-4EEE-A899-A0B13B04FAEE}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9C235392-0FB2-4EEE-A899-A0B13B04FAEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="EngineUsed" ID="{EBB75A89-9BC3-4D5E-8040-AD9AD2F62352}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Bullet_Detonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}" WorkUnitID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

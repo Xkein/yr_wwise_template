@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47ED43EC-1A6C-4CA8-A111-EC3840A0C97D}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{47ED43EC-1A6C-4CA8-A111-EC3840A0C97D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface" ID="{7182F310-599B-4E1D-BE09-CFF92490E44D}">
+					<ChildrenList>
+						<Switch Name="Clear" ID="{727200E8-D345-42A5-9523-2BF20B68506D}"/>
+						<Switch Name="Road" ID="{11588983-80F5-4E16-A48C-9EDC5DF074AA}"/>
+						<Switch Name="Water" ID="{F5B192D8-8A71-4078-8A55-0FC164D68529}"/>
+						<Switch Name="Rock" ID="{DA0F6107-B7DC-4D7A-AF18-5131D13D83FB}"/>
+						<Switch Name="Wall" ID="{4CBF60C7-3CEB-4807-AFB0-B66398D83802}"/>
+						<Switch Name="Tiberium" ID="{227CD040-C52F-4212-8318-935820F29A3E}"/>
+						<Switch Name="Beach" ID="{14D3436F-2BC0-4C99-82E5-B96536182391}"/>
+						<Switch Name="Rough" ID="{9A06C96C-FD8C-4C93-893B-07972489661A}"/>
+						<Switch Name="Ice" ID="{546A804F-4DA7-46B0-99A1-3E3FBBFC3305}"/>
+						<Switch Name="Railroad" ID="{D2D8D478-6F66-4CD7-A488-AAA7CD8466A3}"/>
+						<Switch Name="Tunnel" ID="{14D6F222-7FE8-45CD-8C88-BC1776686B7A}"/>
+						<Switch Name="Weeds" ID="{CB61A677-4B11-4A96-9E7D-69D6B453173B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Bullet_Detonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
