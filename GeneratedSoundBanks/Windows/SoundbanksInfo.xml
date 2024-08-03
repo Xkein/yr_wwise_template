@@ -168,13 +168,124 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{8A7F0B04-A328-93A1-19A6-F5667403D127}">
+		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{2BB7F540-A994-D5EE-9611-11D36F8D5C21}">
+			<ShortName>TestSoundBank</ShortName>
+			<Path>TestSoundBank.bnk</Path>
+			<Media>
+				<File Id="57128603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_Walking_Hardwood_01.wav</ShortName>
+					<CachePath>SFX/Footstep_Walking_Hardwood_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="542420692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Dirt_01.wav</ShortName>
+					<CachePath>SFX/FS_Dirt_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1064274520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_Walking_Hardmetal_01.wav</ShortName>
+					<CachePath>SFX/Footstep_Walking_Hardmetal_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3109371909" Name="TestDetonate">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="3059984139"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="3960883458"/>
+							<MediaRefs>
+								<MediaRef Id="57128603"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="344481046"/>
+							<MediaRefs>
+								<MediaRef Id="542420692"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1262240040"/>
+							<MediaRefs>
+								<MediaRef Id="57128603"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4075332698"/>
+							<MediaRefs>
+								<MediaRef Id="542420692"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="588027413"/>
+							<MediaRefs>
+								<MediaRef Id="57128603"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2722214071"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2110808655"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2108779961"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="1064274520"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1754255536"/>
+							<MediaRefs>
+								<MediaRef Id="542420692"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface">
+					<Switches>
+						<Switch Id="344481046" Name="Ice"/>
+						<Switch Id="588027413" Name="Weeds"/>
+						<Switch Id="1262240040" Name="Rough"/>
+						<Switch Id="1754255536" Name="Clear"/>
+						<Switch Id="2108779961" Name="Wall"/>
+						<Switch Id="2110808655" Name="Road"/>
+						<Switch Id="2144363834" Name="Rock"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="2722214071" Name="Railroad"/>
+						<Switch Id="3059984139" Name="Tunnel"/>
+						<Switch Id="3960883458" Name="Tiberium"/>
+						<Switch Id="4075332698" Name="Beach"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{ADFB28BB-B10E-3086-7EEC-5D352F70A1FF}">
 			<ShortName>EngineUsed</ShortName>
 			<Path>EngineUsed.bnk</Path>
-			<Events>
-				<Event Id="666185888" Name="Bullet_Detonate"/>
-			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EB654004-0348-73A0-E2AB-4504B60DAB16}</FileHash>
+	<FileHash>{ADB6EC8B-50EE-A59C-FA10-006FA3C49B7A}</FileHash>
 </SoundBanksInfo>

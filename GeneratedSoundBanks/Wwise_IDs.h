@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID BULLET_DETONATE = 666185888U;
+        static const AkUniqueID TESTDETONATE = 3109371909U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -45,6 +45,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ENGINEUSED = 2066667852U;
+        static const AkUniqueID TESTSOUNDBANK = 1831431028U;
     } // namespace BANKS
 
     namespace BUSSES

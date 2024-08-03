@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3109371909	TestDetonate			\Default Work Unit\TestDetonate	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	344481046	Ice	Surface			
+	588027413	Weeds	Surface			
+	1262240040	Rough	Surface			
+	1754255536	Clear	Surface			
+	2108779961	Wall	Surface			
+	2110808655	Road	Surface			
+	2144363834	Rock	Surface			
+	2654748154	Water	Surface			
+	2722214071	Railroad	Surface			
+	3059984139	Tunnel	Surface			
+	3960883458	Tiberium	Surface			
+	4075332698	Beach	Surface			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	57128603	Footstep_Walking_Hardwood_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Footstep_Walking_Hardwood_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\Footstep_Walking_Hardwood_01		22604
+	542420692	FS_Dirt_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\FS_Dirt_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\FS_Dirt_01		35744
+	1064274520	Footstep_Walking_Hardmetal_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Footstep_Walking_Hardmetal_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\Footstep_Walking_Hardmetal_01		29912
+

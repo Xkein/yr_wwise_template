@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Bullet_Detonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}"/>
+				<Event Name="TestDetonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}">
+					<ChildrenList>
+						<Action Name="" ID="{D8EA1487-B543-4F59-8DB7-93E01B355AA7}" ShortID="1026308502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestDetonate" ID="{C12ADB27-4518-445A-9FA0-859DA07EF07B}" WorkUnitID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,6 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="TestDetonate" ID="{C12ADB27-4518-445A-9FA0-859DA07EF07B}" ShortID="405453465">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{43E76737-931C-4AFC-88CA-8684B02A66C8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{73C0BAEE-12D1-40D7-BD83-64A1A6B0AD2A}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Surface" ID="{7182F310-599B-4E1D-BE09-CFF92490E44D}" WorkUnitID="{47ED43EC-1A6C-4CA8-A111-EC3840A0C97D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="FS_Dirt_01" ID="{CA9783F6-4840-4EB4-ACF0-EADF2C665536}" ShortID="759261888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{43E76737-931C-4AFC-88CA-8684B02A66C8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{73C0BAEE-12D1-40D7-BD83-64A1A6B0AD2A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Dirt_01" ID="{91F5ACD2-B906-4B18-8A53-A328050D182E}">
+									<Language>SFX</Language>
+									<AudioFile>FS_Dirt_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="542420692"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Dirt_01" ID="{91F5ACD2-B906-4B18-8A53-A328050D182E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}" ShortID="684838404">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{43E76737-931C-4AFC-88CA-8684B02A66C8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{73C0BAEE-12D1-40D7-BD83-64A1A6B0AD2A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footstep_Walking_Hardmetal_01" ID="{017BEC11-9974-4A42-BC2D-D5BFD04B174D}">
+									<Language>SFX</Language>
+									<AudioFile>Footstep_Walking_Hardmetal_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1064274520"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footstep_Walking_Hardmetal_01" ID="{017BEC11-9974-4A42-BC2D-D5BFD04B174D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep_Walking_Hardwood_01" ID="{DD916A6C-FE7D-48B4-AE81-17125CC31976}" ShortID="675022957">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{43E76737-931C-4AFC-88CA-8684B02A66C8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{73C0BAEE-12D1-40D7-BD83-64A1A6B0AD2A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Footstep_Walking_Hardwood_01" ID="{CFD3088D-F954-483A-847A-635C86695FE1}">
+									<Language>SFX</Language>
+									<AudioFile>Footstep_Walking_Hardwood_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57128603"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Footstep_Walking_Hardwood_01" ID="{CFD3088D-F954-483A-847A-635C86695FE1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Walking_Hardwood_01" ID="{DD916A6C-FE7D-48B4-AE81-17125CC31976}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FS_Dirt_01" ID="{CA9783F6-4840-4EB4-ACF0-EADF2C665536}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Rock" ID="{DA0F6107-B7DC-4D7A-AF18-5131D13D83FB}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Tunnel" ID="{14D6F222-7FE8-45CD-8C88-BC1776686B7A}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Tiberium" ID="{227CD040-C52F-4212-8318-935820F29A3E}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardwood_01" ID="{DD916A6C-FE7D-48B4-AE81-17125CC31976}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Ice" ID="{546A804F-4DA7-46B0-99A1-3E3FBBFC3305}"/>
+								<ItemList>
+									<ItemRef Name="FS_Dirt_01" ID="{CA9783F6-4840-4EB4-ACF0-EADF2C665536}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Rough" ID="{9A06C96C-FD8C-4C93-893B-07972489661A}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardwood_01" ID="{DD916A6C-FE7D-48B4-AE81-17125CC31976}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Beach" ID="{14D3436F-2BC0-4C99-82E5-B96536182391}"/>
+								<ItemList>
+									<ItemRef Name="FS_Dirt_01" ID="{CA9783F6-4840-4EB4-ACF0-EADF2C665536}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Weeds" ID="{CB61A677-4B11-4A96-9E7D-69D6B453173B}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardwood_01" ID="{DD916A6C-FE7D-48B4-AE81-17125CC31976}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Railroad" ID="{D2D8D478-6F66-4CD7-A488-AAA7CD8466A3}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Road" ID="{11588983-80F5-4E16-A48C-9EDC5DF074AA}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wall" ID="{4CBF60C7-3CEB-4807-AFB0-B66398D83802}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{F5B192D8-8A71-4078-8A55-0FC164D68529}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Walking_Hardmetal_01" ID="{D15B2BA7-BB1F-4298-99BD-1CBAFE1EBD0D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Clear" ID="{727200E8-D345-42A5-9523-2BF20B68506D}"/>
+								<ItemList>
+									<ItemRef Name="FS_Dirt_01" ID="{CA9783F6-4840-4EB4-ACF0-EADF2C665536}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
