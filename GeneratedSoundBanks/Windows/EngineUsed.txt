@@ -1,3 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	666185888	Bullet_Detonate			\Default Work Unit\Bullet_Detonate	
+	155272345	M_GameOver			\Default Work Unit\Music\M_GameOver	
+	443355295	M_None			\Default Work Unit\Music\M_None	
+	2309605244	M_Normal			\Default Work Unit\Music\M_Normal	
+	2821901421	M_UnderAttack			\Default Work Unit\Music\M_UnderAttack	
+	3431848355	M_Winning			\Default Work Unit\Music\M_Winning	
+	4033210584	M_Invasion			\Default Work Unit\Music\M_Invasion	
 

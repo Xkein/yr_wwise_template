@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	1160234136	Normal	Music			
+	1335043396	Invasion	Music			
+	2862835585	UnderAttack	Music			
+	2996998095	Winning	Music			
+	4158285989	GameOver	Music			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
@@ -15,7 +26,14 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	932389257	EVA			\Default Work Unit\Master Audio Bus\Voice\EVA	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\3D_Bus\Environment	
+	1304109583	Unit			\Default Work Unit\Master Audio Bus\Voice\Unit	
+	1492361653	Sounds			\Default Work Unit\Master Audio Bus\3D_Bus\Sounds	
+	2337546123	3D_Bus			\Default Work Unit\Master Audio Bus\3D_Bus	
+	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

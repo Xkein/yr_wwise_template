@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{80AA3125-B4C7-2DBE-1BF1-31EE7B72A930}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{48AD9D63-71B2-963B-17CA-EF64B5F7D7C1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,8 +19,30 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="932389257" Name="EVA"/>
+				<Bus Id="1229948536" Name="Environment"/>
+				<Bus Id="1304109583" Name="Unit"/>
+				<Bus Id="1492361653" Name="Sounds"/>
+				<Bus Id="2337546123" Name="3D_Bus"/>
+				<Bus Id="3170124113" Name="Voice"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1335699628" Name="ObjectHP"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="1335043396" Name="Invasion"/>
+						<State Id="2862835585" Name="UnderAttack"/>
+						<State Id="2996998095" Name="Winning"/>
+						<State Id="4158285989" Name="GameOver"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
@@ -168,13 +190,54 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{8A7F0B04-A328-93A1-19A6-F5667403D127}">
+		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{ACA82153-B5A6-0089-61CF-D647172F04BF}">
 			<ShortName>EngineUsed</ShortName>
 			<Path>EngineUsed.bnk</Path>
 			<Events>
-				<Event Id="666185888" Name="Bullet_Detonate"/>
+				<Event Id="155272345" Name="M_GameOver">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="4158285989" Name="GameOver"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4033210584" Name="M_Invasion">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="1335043396" Name="Invasion"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="443355295" Name="M_None">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="748895195" Name="None"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2309605244" Name="M_Normal">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="1160234136" Name="Normal"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2821901421" Name="M_UnderAttack">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="2862835585" Name="UnderAttack"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3431848355" Name="M_Winning">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="2996998095" Name="Winning"/>
+					</ActionSetState>
+				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1160234136" Name="Normal"/>
+						<State Id="1335043396" Name="Invasion"/>
+						<State Id="2862835585" Name="UnderAttack"/>
+						<State Id="2996998095" Name="Winning"/>
+						<State Id="4158285989" Name="GameOver"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EB654004-0348-73A0-E2AB-4504B60DAB16}</FileHash>
+	<FileHash>{FC63AE5B-5D4D-2802-76BC-6608FAC661DF}</FileHash>
 </SoundBanksInfo>
