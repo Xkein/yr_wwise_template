@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	155272345	M_GameOver			\Default Work Unit\Music\M_GameOver	
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
 	443355295	M_None			\Default Work Unit\Music\M_None	
 	2309605244	M_Normal			\Default Work Unit\Music\M_Normal	
 	2821901421	M_UnderAttack			\Default Work Unit\Music\M_UnderAttack	
@@ -25,7 +26,10 @@ Switch	ID	Name	Switch Group			Notes
 	4075332698	Beach	Surface			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1099684	Keys	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Keys_FBC78EF0.wem		\Interactive Music Hierarchy\InteractiveMusic\In-Game Music\Transition\Keys	Audiokinetic Inc. All rights reserved. Audio content provided by Stéphane Beauchemin and Kyle Bennett © 2010 Stéphane Beauchemin and Kyle Bennett beauchemin.stephane@gmail.com http://www.kylebennett.ca kylebenne@gmail.com  The Audio Content contained in this file is the property of Stéphane Beauchemin and Kyle Bennett. Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Integration Demo Project. This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	3456096
+	1748691	Bass	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Bass_FBC78EF0.wem		\Interactive Music Hierarchy\InteractiveMusic\In-Game Music\Transition\Bass	Audiokinetic Inc. All rights reserved. Audio content provided by Stéphane Beauchemin and Kyle Bennett © 2010 Stéphane Beauchemin and Kyle Bennett beauchemin.stephane@gmail.com http://www.kylebennett.ca kylebenne@gmail.com  The Audio Content contained in this file is the property of Stéphane Beauchemin and Kyle Bennett. Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Integration Demo Project. This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	2304096
 	57128603	Footstep_Walking_Hardwood_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Footstep_Walking_Hardwood_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\Footstep_Walking_Hardwood_01		22604
+	130569707	Voice	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Voice2_FBC78EF0.wem		\Interactive Music Hierarchy\InteractiveMusic\In-Game Music\Transition\Voice	Audiokinetic Inc. All rights reserved. Audio content provided by Stéphane Beauchemin and Kyle Bennett © 2010 Stéphane Beauchemin and Kyle Bennett beauchemin.stephane@gmail.com http://www.kylebennett.ca kylebenne@gmail.com  The Audio Content contained in this file is the property of Stéphane Beauchemin and Kyle Bennett. Your sole right with regard to this Audio Content is to listen to the Audio Content as part of this Integration Demo Project. This Audio Content cannot be used or modified for a commercial purpose nor for public demonstration.	529296
 	542420692	FS_Dirt_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\FS_Dirt_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\FS_Dirt_01		35744
 	1064274520	Footstep_Walking_Hardmetal_01	D:\Works\YR\YrVisualScript\content\yr_wwise_template\.cache\Windows\SFX\Footstep_Walking_Hardmetal_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestDetonate\Footstep_Walking_Hardmetal_01		29912
 

@@ -102,6 +102,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayMusic" ID="{D517AF21-18AD-4C86-BDC5-81023A1F9609}">
+					<ChildrenList>
+						<Action Name="" ID="{DE877301-A477-4DE4-A2B2-2B30FDA36283}" ShortID="723061354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="In-Game Music" ID="{9A47F923-9470-440D-8447-81F163F4B456}" WorkUnitID="{1BDEE0E7-7F39-4966-83D4-9E9185A4D4CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{204F64E6-E2AC-49A3-A1C2-FF83C94EF29B}" ShortID="496707559">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Normal" ID="{1C6353F1-E2BB-436A-BEBC-9BA2E405209F}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

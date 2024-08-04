@@ -190,13 +190,25 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{C31399EC-4E99-3126-BF0B-E171F70573A2}">
+		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{CAEFE1B8-AFF7-68B2-0E02-63E0BF152008}">
 			<ShortName>TestSoundBank</ShortName>
 			<Path>TestSoundBank.bnk</Path>
 			<Media>
+				<File Id="1099684" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keys.wav</ShortName>
+					<CachePath>SFX/Keys_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1748691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bass.wav</ShortName>
+					<CachePath>SFX/Bass_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="57128603" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Walking_Hardwood_01.wav</ShortName>
 					<CachePath>SFX/Footstep_Walking_Hardwood_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="130569707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Voice2.wav</ShortName>
+					<CachePath>SFX/Voice2_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="542420692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Dirt_01.wav</ShortName>
@@ -236,6 +248,16 @@
 				<Event Id="3431848355" Name="M_Winning">
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="3991942870" Id="2996998095" Name="Winning"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="417627684" Name="PlayMusic">
+					<MediaRefs>
+						<MediaRef Id="1099684"/>
+						<MediaRef Id="1748691"/>
+						<MediaRef Id="130569707"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3991942870" Id="1160234136" Name="Normal"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3109371909" Name="TestDetonate">
@@ -351,5 +373,5 @@
 			<Path>EngineUsed.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD40D902-0987-C49F-8040-BAE33B231213}</FileHash>
+	<FileHash>{ADEB492C-B441-AC08-74D3-D20C4CC76716}</FileHash>
 </SoundBanksInfo>

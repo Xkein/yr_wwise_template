@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID M_NORMAL = 2309605244U;
         static const AkUniqueID M_UNDERATTACK = 2821901421U;
         static const AkUniqueID M_WINNING = 3431848355U;
+        static const AkUniqueID PLAYMUSIC = 417627684U;
         static const AkUniqueID TESTDETONATE = 3109371909U;
     } // namespace EVENTS
 
