@@ -10,6 +10,7 @@
 				</SoundBank>
 				<SoundBank Name="TestSoundBank" ID="{D9C209DC-86F1-478B-A358-8A4FDB7BC9AE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{8E18BC91-BDD0-45D5-A7BA-73C6A4202F29}" WorkUnitID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TestDetonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}" WorkUnitID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

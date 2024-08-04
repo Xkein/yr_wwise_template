@@ -3,6 +3,94 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7C229CCF-9CA9-453B-9AA0-E0123B6A2AB2}" PersistMode="Standalone">
 			<ChildrenList>
+				<Folder Name="Music" ID="{8E18BC91-BDD0-45D5-A7BA-73C6A4202F29}" ShortID="1058510432">
+					<ChildrenList>
+						<Event Name="M_Normal" ID="{B68546C9-F72E-485A-A546-D093C9AF091F}">
+							<ChildrenList>
+								<Action Name="" ID="{6AB73F9F-5065-4165-AC00-2C49D042D283}" ShortID="1053456657">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Normal" ID="{1C6353F1-E2BB-436A-BEBC-9BA2E405209F}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="M_GameOver" ID="{AEA76499-0E41-44E1-9048-C0CF0D23D077}">
+							<ChildrenList>
+								<Action Name="" ID="{41E1A09D-348C-4F0B-B93E-91B7E47662CC}" ShortID="946993614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GameOver" ID="{F5FB6C36-9954-4468-82FA-D46700700C75}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="M_Winning" ID="{915DBE96-D3EE-44F7-ACEA-70676A4DF849}">
+							<ChildrenList>
+								<Action Name="" ID="{59156A3A-463C-4B24-9CE6-874EEDF02EA9}" ShortID="547395924">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Winning" ID="{38161898-B541-4A5F-9599-1E19FE7D9D03}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="M_Invasion" ID="{81ECC868-6D5E-4FCA-84C6-A57313C03038}">
+							<ChildrenList>
+								<Action Name="" ID="{1313F07B-02D2-4E5C-A41B-C0FFBE614E07}" ShortID="671417305">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Invasion" ID="{B22FB755-9A0F-4EA9-8F8E-30C138ABE25F}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="M_UnderAttack" ID="{72F2EE63-330E-44B3-A108-B30ACE9C95A6}">
+							<ChildrenList>
+								<Action Name="" ID="{4A458648-C764-4A07-96B3-A0D6F9E843E1}" ShortID="679241270">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UnderAttack" ID="{F453FA57-7E67-445A-BA49-4206D06575A5}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="M_None" ID="{F56752E6-F729-4DDF-A9C3-5144262E2C39}">
+							<ChildrenList>
+								<Action Name="" ID="{D8CD93E5-66C6-41E7-95CB-DB71F8152A14}" ShortID="884059757">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="None" ID="{A338F562-2E71-4D42-A95F-E9BF143C7915}" WorkUnitID="{2C33B0E7-32A3-403A-9689-A17C7CBE5753}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Event Name="TestDetonate" ID="{39D1CC4A-4CBC-4DEF-9789-4D791FB9405E}">
 					<ChildrenList>
 						<Action Name="" ID="{D8EA1487-B543-4F59-8DB7-93E01B355AA7}" ShortID="1026308502">

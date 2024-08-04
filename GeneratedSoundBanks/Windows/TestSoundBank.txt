@@ -1,5 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	155272345	M_GameOver			\Default Work Unit\Music\M_GameOver	
+	443355295	M_None			\Default Work Unit\Music\M_None	
+	2309605244	M_Normal			\Default Work Unit\Music\M_Normal	
+	2821901421	M_UnderAttack			\Default Work Unit\Music\M_UnderAttack	
 	3109371909	TestDetonate			\Default Work Unit\TestDetonate	
+	3431848355	M_Winning			\Default Work Unit\Music\M_Winning	
+	4033210584	M_Invasion			\Default Work Unit\Music\M_Invasion	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
