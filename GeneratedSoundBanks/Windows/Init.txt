@@ -30,6 +30,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\3D_Bus\Environment	
 	1304109583	Unit			\Default Work Unit\Master Audio Bus\Voice\Unit	
 	1492361653	Sounds			\Default Work Unit\Master Audio Bus\3D_Bus\Sounds	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
 	2337546123	3D_Bus			\Default Work Unit\Master Audio Bus\3D_Bus	
 	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

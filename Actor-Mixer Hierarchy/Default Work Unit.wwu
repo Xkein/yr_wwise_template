@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B033D486-AC8C-4B67-B417-AC771F85BC3A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Button-SoundBible_com-1420500901" ID="{844C56D4-D121-4781-811E-FB2B1071493C}" ShortID="1013044137">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{43E76737-931C-4AFC-88CA-8684B02A66C8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{73C0BAEE-12D1-40D7-BD83-64A1A6B0AD2A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Button-SoundBible_com-1420500901" ID="{C9452D7B-3719-4016-9BEF-F4AE6417ED4F}">
+							<Language>SFX</Language>
+							<AudioFile>Button-SoundBible.com-1420500901.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="195433338"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Button-SoundBible_com-1420500901" ID="{C9452D7B-3719-4016-9BEF-F4AE6417ED4F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -23,6 +23,7 @@
 								<Bus Name="Unit" ID="{20D4BDC5-7360-4352-A4CA-C1594EE03B86}"/>
 							</ChildrenList>
 						</Bus>
+						<Bus Name="UI" ID="{2FC05FE3-A314-40F6-B76A-A655254A6BFF}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
