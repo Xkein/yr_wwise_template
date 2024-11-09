@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C8FB7123-A99E-1370-8C12-08D830362493}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{212A90DD-F6AC-53D6-3FEC-8AC43746F6E5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -191,7 +191,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{ACA82153-B5A6-0089-61CF-D647172F04BF}">
+		<SoundBank Id="2066667852" Type="User" Language="SFX" Hash="{B01009F3-F4BE-7B27-77CF-1F11D417D075}">
 			<ShortName>EngineUsed</ShortName>
 			<Path>EngineUsed.bnk</Path>
 			<Events>
@@ -240,5 +240,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14E6C115-C799-C64F-A480-B6BE9E14FBE2}</FileHash>
+	<FileHash>{A95B5C27-C480-DB9F-AB1A-6D1BB1665450}</FileHash>
 </SoundBanksInfo>
